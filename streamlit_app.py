@@ -18,8 +18,7 @@ st.sidebar.info(
 )
 
 # Customize page title
-st.title("MoodUP!!!
-            Bienvenid@s")
+st.title("MoodUP!!! Bienvenid@s")
 
 st.markdown(
     """
