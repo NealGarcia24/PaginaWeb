@@ -5,39 +5,37 @@ st.set_page_config(layout="wide")
 
 st.sidebar.info(
     """
-    - Web App URL: <https://streamlit.geemap.org>
-    - GitHub repository: <https://github.com/giswqs/streamlit-geospatial>
+    - Hola Bienvenid@ !!!
+    - Creado por Neal Garcia
     """
 )
 
-st.sidebar.title("Contact")
+st.sidebar.title("Colegio Los Pinos")
 st.sidebar.info(
     """
-    Qiusheng Wu: <https://wetlands.io>
-    [GitHub](https://github.com/giswqs) | [Twitter](https://twitter.com/giswqs) | [YouTube](https://www.youtube.com/c/QiushengWu) | [LinkedIn](https://www.linkedin.com/in/qiushengwu)
+    Aplicación web como herramienta para detectar la depresion en alumnos de secundaria del colegio Los Pinos
     """
 )
 
-st.title("Streamlit for Geospatial Applications")
+st.title("MoodUP!!!
+            Bienvenid@s")
 
 st.markdown(
     """
-    This multi-page web app demonstrates various interactive web apps created using [streamlit](https://streamlit.io) and open-source mapping libraries, 
-    such as [leafmap](https://leafmap.org), [geemap](https://geemap.org), [pydeck](https://deckgl.readthedocs.io), and [kepler.gl](https://docs.kepler.gl/docs/keplergl-jupyter).
-    This is an open-source project and you are very welcome to contribute your comments, questions, resources, and apps as [issues](https://github.com/giswqs/streamlit-geospatial/issues) or 
-    [pull requests](https://github.com/giswqs/streamlit-geospatial/pulls) to the [GitHub repository](https://github.com/giswqs/streamlit-geospatial).
+    Bienvenidos a nuestra página de detección de depresión para alumnos de secundaria del Colegio Los Pinos!
+    En esta página, nos dedicamos a brindar apoyo y herramientas para la detección temprana de la depresión en los 
+    alumnos de secundaria del Colegio Los Pinos. Nuestro objetivo principal es promover la salud mental y ayudar 
+    a los estudiantes a reconocer los signos y síntomas de la depresión, así como a buscar el apoyo necesario.
 
     """
 )
 
-st.info("Click on the left sidebar menu to navigate to the different apps.")
+st.info("Haga clic en el menú de la barra lateral izquierda para navegar por las difentes pestañas")
 
-st.subheader("Timelapse of Satellite Imagery")
-st.markdown(
-    """
-    The following timelapse animations were created using the Timelapse web app. Click `Timelapse` on the left sidebar menu to create your own timelapse for any location around the globe.
-"""
-)
+st.subheader("Sabemos que hablar sobre la depresión puede resultar difícil, y muchos adolescentes pueden 
+sentirse solos o incomprendidos. Queremos que sepan que no están solos. Aquí encontrarán información valiosa, 
+recursos útiles y la posibilidad de conectarse con profesionales capacitados que los escucharán y les brindarán 
+el apoyo que necesitan.")
 
 row1_col1, row1_col2 = st.columns(2)
 with row1_col1:
