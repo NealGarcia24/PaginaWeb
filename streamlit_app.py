@@ -30,7 +30,7 @@ st.markdown(
     """
 )
 
-st.header("Instructions")
+st.header("Acerca de MoodUp")
 
 markdown = """
 Sabemos que hablar sobre la depresión puede resultar difícil, y muchos adolescentes pueden 
