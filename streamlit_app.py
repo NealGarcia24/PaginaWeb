@@ -32,7 +32,8 @@ st.markdown(
 
 st.header("Acerca de MoodUp")
 
-markdown = """
+st.markdown (
+"""
 Sabemos que hablar sobre la depresión puede resultar difícil, y muchos adolescentes pueden 
 sentirse solos o incomprendidos. Queremos que sepan que no están solos. Aquí encontrarán información valiosa, 
 recursos útiles y la posibilidad de conectarse con profesionales capacitados que los escucharán y les brindarán 
@@ -40,4 +41,4 @@ el apoyo que necesitan.
 
 """
 
-
+)
