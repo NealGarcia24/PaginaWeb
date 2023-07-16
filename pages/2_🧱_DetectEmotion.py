@@ -5,10 +5,10 @@ import numpy as np
 from streamlit_webrtc import VideoProcessorBase, webrtc_streamer
 
 # Carga el modelo pre-entrenado para la detección de rostros y emociones
-face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default')
+face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 emotion_model = cv2.dnn.readNetFromCaffe(
     'deploy.prototxt',
-    'fer2013_mini_XCEPTION.102-0.66'
+    'fer2013_mini_XCEPTION.102-0.66.hdf5'
 )
 
 # Lista de etiquetas de emociones
