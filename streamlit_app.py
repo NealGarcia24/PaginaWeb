@@ -1,5 +1,5 @@
 import streamlit as st
-import leafmap.foliumap as leafmap
+
 
 st.set_page_config(layout="wide")
 
@@ -40,8 +40,15 @@ recursos útiles y la posibilidad de conectarse con profesionales capacitados qu
 el apoyo que necesitan.
 
 """
-# Agregar una imagen desde una URL
+
+)
+def main():
+    st.title("Ejemplo de Imagen en Streamlit")
+
+    # Agregar una imagen desde una URL
     st.subheader("Imagen desde una URL")
     url = "https://example.com/image.jpg"
     st.image(url, caption='Imagen desde una URL', use_column_width=True)
-)
+
+if __name__ == '__main__':
+    main()
