@@ -4,14 +4,14 @@ import streamlit as st
 user_database = {}
 
 def main():
-    st.title("Aplicación de Registro e Inicio de Sesión")
+    st.title("MoodUp Registrate o Inicia Sesión")
 
     menu = ["Inicio", "Registro", "Inicio de Sesión"]
     choice = st.sidebar.selectbox("Menú", menu)
 
     if choice == "Inicio":
         st.subheader("Inicio")
-        st.write("Bienvenido a nuestra aplicación web. Por favor, regístrese o inicie sesión.")
+        st.write("Bienvenido a MoodUp. Por favor, regístrese o inicie sesión.")
 
     elif choice == "Registro":
         st.subheader("Registro")
