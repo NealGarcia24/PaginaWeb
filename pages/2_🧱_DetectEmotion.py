@@ -75,3 +75,4 @@ def main():
     else:
         st.write("Esperando la transmisión de video...")
 if __name__ == "__main__":
+    main()
