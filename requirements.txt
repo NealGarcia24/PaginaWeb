@@ -16,8 +16,9 @@ streamlit-bokeh-events
 streamlit-folium
 streamlit-keplergl
 tropycal
+streamlit-webrtc 
+av
 opencv-python
-tensorflow
 # git+https://github.com/giswqs/leafmap
 # git+https://github.com/giswqs/geemap
 
