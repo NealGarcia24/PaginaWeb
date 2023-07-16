@@ -43,12 +43,11 @@ el apoyo que necesitan.
 
 )
 def main():
-    st.title("Ejemplo de Imagen en Streamlit")
-
+   
     # Agregar una imagen desde una URL
-    st.subheader("Imagen desde una URL")
-    url = "https://example.com/image.jpg"
-    st.image(url, caption='Imagen desde una URL', use_column_width=True)
+    st.subheader("Imagen del colegio")
+    url = "https://1.bp.blogspot.com/-sCobWggbKhY/XQfyHdL3hwI/AAAAAAABQN4/jMxT1znQlsov4xDT67CHngSGTxzFLvy9QCLcBGAs/s1600/ie-80892-los-pinos.jpg"
+    st.image(url, caption='Imagen del colegio', use_column_width=True)
 
 if __name__ == '__main__':
     main()
