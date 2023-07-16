@@ -13,6 +13,7 @@ def main():
         st.subheader("Inicio")
         image = "https://i.ibb.co/kHt7wrB/MoodUp.jpg"
         st.image(image, use_column_width=200)
+        margin_left = int((st.sidebar.width - image) / 2)
         st.write("MoodUp es una herramienta diseñada para detectar la depresión temprana en estudiantes de secundaria del Colegio Los                       Pinos. Nuestro objetivo principal es promover la salud mental y brindar apoyo a los alumnos en su bienestar emocional                     de la mano con nuestros psicólogos especialistas")
 
     elif choice == "Registro":
