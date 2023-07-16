@@ -74,3 +74,5 @@ def main():
         st.write("La detección de emociones se aplicará a los rostros detectados.")
     else:
         st.write("Esperando la transmisión de video...")
+if __name__ == "__main__":
+   __init__()
