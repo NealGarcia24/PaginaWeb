@@ -5,7 +5,7 @@ import numpy as np
 
 
 # Cargar el modelo de detección de emociones preentrenado
-model = load_model('path/to/your/model.h5')
+model = load_model('model_v6_23.hdf5')
 
 # Definir las etiquetas de las emociones
 emotions = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
