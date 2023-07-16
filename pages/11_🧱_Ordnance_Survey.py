@@ -1,6 +1,4 @@
 import streamlit as st
-from streamlit_multipage import MultiPage
-
 
 def input_page(st, **state):
     st.title("Body Mass Index")
