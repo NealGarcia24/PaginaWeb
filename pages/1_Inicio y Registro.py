@@ -11,7 +11,10 @@ def main():
 
     if choice == "Inicio":
         st.subheader("Inicio")
-        st.write("Bienvenido a MoodUp. Por favor, regístrese o inicie sesión.")
+        url = "https://ibb.co/xfXwr2N"
+        st.image(logo_image, use_column_width=True)
+        st.write("MoodUp es una herramienta diseñada para detectar la depresión temprana en estudiantes de secundaria del Colegio Los Pinos.
+    Nuestro objetivo principal es promover la salud mental y brindar apoyo a los alumnos en su bienestar emocional de la mano con nuestros psicólogos especialistas")
 
     elif choice == "Registro":
         st.subheader("Registro")
