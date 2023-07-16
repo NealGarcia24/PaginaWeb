@@ -18,6 +18,7 @@ def main():
         '</div>',
         unsafe_allow_html=True
     )
+        st.write('<br>' * 3, unsafe_allow_html=True)
         st.write("MoodUp es una herramienta diseñada para detectar la depresión temprana en estudiantes de secundaria del Colegio Los                       Pinos. Nuestro objetivo principal es promover la salud mental y brindar apoyo a los alumnos en su bienestar emocional                     de la mano con nuestros psicólogos especialistas")
 
     elif choice == "Registro":
