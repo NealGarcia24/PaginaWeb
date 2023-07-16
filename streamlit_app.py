@@ -42,3 +42,7 @@ el apoyo que necesitan.
 """
 
 )
+# Agregar una imagen desde una URL
+    st.subheader("Imagen desde una URL")
+    url = "https://example.com/image.jpg"
+    st.image(url, caption='Imagen desde una URL', use_column_width=True)
