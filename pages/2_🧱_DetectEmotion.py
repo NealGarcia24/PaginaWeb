@@ -42,7 +42,7 @@ def detect_emotions(face):
 st.title('Detección de emociones en tiempo real')
 
 # Crear el objeto de captura de video
-video_capture = cv2.VideoCapture(0)
+video_capture = cv2.VideoCapture(1)
 
 # Ejecutar la aplicación en bucle hasta que se interrumpa
 while True:
