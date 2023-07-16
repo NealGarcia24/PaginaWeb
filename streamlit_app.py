@@ -45,9 +45,9 @@ el apoyo que necesitan.
 def main():
    
     # Agregar una imagen desde una URL
-    st.subheader("Imagen del colegio")
+    st.subheader("Colegio 80892 LOS PINOS")
     url = "https://1.bp.blogspot.com/-sCobWggbKhY/XQfyHdL3hwI/AAAAAAABQN4/jMxT1znQlsov4xDT67CHngSGTxzFLvy9QCLcBGAs/s1600/ie-80892-los-pinos.jpg"
-    st.image(url, caption='Imagen del colegio', use_column_width=True)
+    st.image(url, caption='Imagen del frontis colegio', use_column_width=True)
 
 if __name__ == '__main__':
     main()
